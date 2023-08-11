@@ -12,12 +12,12 @@ body {
 
 .card {
     margin: 20px auto;
-    /* Center the card horizontally with top and bottom margin */
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px 15px 90px 15px;
     display: flex;
     flex-direction: column;
     padding: 40px;
+   
 }
 
 .formData {
@@ -46,6 +46,7 @@ input {
     padding: 10px;
     font-size: 15px;
     font-weight: 700;
+    width: 50%;
 }
 
 button {
@@ -81,4 +82,10 @@ p {
     font-size: 30px;
     font-weight: 800;
     font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .card{
+        width: 70%;
+    }
 }
