@@ -11,6 +11,8 @@ body {
 }
 
 .card {
+    margin: 20px auto;
+    /* Center the card horizontally with top and bottom margin */
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px 15px 90px 15px;
     display: flex;
@@ -23,7 +25,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+
     color: hsl(0, 1%, 44%);
 }
 
@@ -62,8 +64,7 @@ button {
 
 .anos,
 .meses,
-.dias
-{
+.dias {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -71,10 +72,11 @@ button {
 
 }
 
-h2{
+h2 {
     color: hsl(259, 100%, 65%);
 }
-p{
+
+p {
     color: hsl(0, 0%, 8%);
     font-size: 30px;
     font-weight: 800;
