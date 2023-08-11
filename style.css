@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px 15px 90px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.formData {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    color: hsl(0, 1%, 44%);
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+label {
+    font-weight: 700;
+    font-size: 10px;
+}
+
+input {
+    border: 1px solid hsl(0, 0%, 86%);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+button {
+    border-radius: 50%;
+    border: none;
+    background-image: url(./assets/images/icon-arrow.svg);
+    background-color: hsl(259, 100%, 65%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.anos,
+.meses,
+.dias
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+
+}
+
+h2{
+    color: hsl(259, 100%, 65%);
+}
+p{
+    color: hsl(0, 0%, 8%);
+    font-size: 30px;
+    font-weight: 800;
+    font-style: italic;
+}

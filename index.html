@@ -1,37 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Age calculator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
 
-  Day
-  DD
 
-  Month
-  MM
+  <div class="card">
+    <div class="form">
+      <form action="">
 
-  Year
-  YYYY
+        <div class="formData">
+          <div class="data">
+            <label for="day">DAY</label>
+            <input type="number" name="day" id="day" placeholder="DD" min="1" max="31" required>
+          </div>
+          <div class="data">
+            <label for="month">MONTH</label>
+            <input type="number" name="month" id="month" placeholder="MM" min="1" max="12" required>
 
-  -- years
-  -- months
-  -- days
-  
+          </div>
+          <div class="data">
+            <label for="year">YEAR</label>
+            <input type="number" name="year" id="year" placeholder="YYYY" min="1900" max="" required>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="btn">
+      <button id="btn"></button>
+    </div>
+
+    <div class="results">
+      <div class="anos">
+        <h2>--</h2>
+        <p>YEARS</p>
+      </div>
+      <div class="meses">
+        <h2>--</h2>
+        <p>MONTHS</p>
+      </div>
+      <div class="dias">
+        <h2>--</h2>
+        <p>DAYS</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
